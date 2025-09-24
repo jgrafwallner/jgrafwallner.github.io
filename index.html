@@ -8,40 +8,30 @@
   <meta property="og:title" content="Jay Grafwallner — Portfolio" />
   <meta property="og:description" content="Projects, writing, and contact." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://jaygrafwallner.com/" />
+  <meta property="og:url" content="https://www.jaygrafwallner.com/" />
   <meta property="og:image" content="/og-image.jpg" />
   <link rel="icon" href="/favicon.ico" />
   <style>
     :root { --bg:#0b0c10; --panel:#111318; --text:#e6e6e6; --muted:#a8a8a8; --accent:#2dd4bf; --accent-2:#60a5fa; --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.35) }
-    *{ box-sizing:border-box }
-    html,body{ margin:0; padding:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif }
-    a{ color:var(--accent-2); text-decoration:none }
-    a:hover{ text-decoration:underline }
+    *{ box-sizing:border-box } html,body{ margin:0; padding:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif }
+    a{ color:var(--accent-2); text-decoration:none } a:hover{ text-decoration:underline }
     header{ position:sticky; top:0; backdrop-filter:blur(6px); background:rgba(11,12,16,.7); border-bottom:1px solid #1d2330; z-index:50 }
     .nav{ max-width:1100px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:.8rem 1rem }
-    .brand{ font-weight:700; letter-spacing:.3px }
-    .menu a{ margin-left:1rem; font-weight:600; color:var(--text); opacity:.85 }
-    .menu a:hover{ opacity:1 }
+    .brand{ font-weight:700 } .menu a{ margin-left:1rem; font-weight:600; color:var(--text); opacity:.85 } .menu a:hover{ opacity:1 }
     .container{ max-width:1100px; margin:0 auto; padding:2rem 1rem }
     .hero{ display:grid; gap:1.2rem; align-items:center; grid-template-columns:1.2fr .8fr }
     .hero h1{ font-size:clamp(2rem,3.8vw,3rem); line-height:1.15; margin:0 }
     .kicker{ color:var(--muted); font-weight:600; letter-spacing:.4px; text-transform:uppercase; font-size:.85rem }
     .cta{ display:inline-block; background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#081016; padding:.9rem 1.1rem; border-radius:12px; font-weight:800; box-shadow:var(--shadow) }
     .card{ background:var(--panel); border:1px solid #222734; border-radius:var(--radius); box-shadow:var(--shadow) }
-    .grid{ display:grid; gap:1rem }
-    .grid.cols-3{ grid-template-columns:repeat(3,1fr) }
-    .grid.cols-2{ grid-template-columns:repeat(2,1fr) }
-    .pad{ padding:1.2rem }
-    .muted{ color:var(--muted) }
-    section{ scroll-margin-top:70px }
+    .grid{ display:grid; gap:1rem } .grid.cols-3{ grid-template-columns:repeat(3,1fr) } .grid.cols-2{ grid-template-columns:repeat(2,1fr) }
+    .pad{ padding:1.2rem } .muted{ color:var(--muted) } section{ scroll-margin-top:70px }
     .tag{ display:inline-block; font-size:.8rem; padding:.15rem .5rem; border-radius:999px; background:#18202d; border:1px solid #263044; color:#95a0b5; margin-right:.35rem }
-    footer{ border-top:1px solid #1d2330; color:var(--muted) }
-    input,textarea{ width:100%; background:#0e121a; border:1px solid #263044; color:var(--text); padding:.8rem .9rem; border-radius:10px }
-    label{ display:block; font-weight:600; margin:.5rem 0 .3rem }
-    button{ background:var(--accent-2); color:#0a0e16; border:0; padding:.85rem 1rem; border-radius:10px; font-weight:800; cursor:pointer }
-    button:hover{ filter:brightness(1.05) }
-    .hero-art{ aspect-ratio:1/1; background:radial-gradient(120px 120px at 30% 30%,#1b263b,transparent), radial-gradient(80px 80px at 70% 70%,#14344b,transparent); border-radius:20px; border:1px solid #233149 }
-    @media (max-width:880px){ .hero{ grid-template-columns:1fr } .grid.cols-3{ grid-template-columns:1fr } .grid.cols-2{ grid-template-columns:1fr } }
+    footer{ border-top:1px solid #1d2330; color: var(--muted) } img{ max-width:100%; border-radius:12px }
+    @media (max-width:880px){ .hero{ grid-template-columns:1fr } .grid.cols-3,.grid.cols-2{ grid-template-columns:1fr } }
+    /* === EDIT GUIDE ===
+       Only change text INSIDE the markers: [EDIT START] ... [EDIT END].
+       Do not touch the HTML tags outside those markers.  */
   </style>
 </head>
 <body>
@@ -60,25 +50,20 @@
     <section class="hero" id="home">
       <div>
         <div class="kicker">Maker • 3D printing • FPV</div>
-        <h1>Practical builds and experiments. Clear notes. No fluff.</h1>
-        <p class="muted">I design functional prints, tune FPV gear, and share step‑by‑step guides. This site collects projects, write‑ups, and quick contact.</p>
+        <h1>[EDIT START] Some of the 3d prints I have done! [EDIT END]</h1>
+        <p class="muted">[EDIT START] I design 3d prints, fly drones, and am passionate about technology and computers. This site collects projects, write‑ups, and has a way to contact me eaisly. [EDIT END]</p>
         <p><a class="cta" href="#projects">See projects</a></p>
-        <p>
-          <span class="tag">3D Printing</span>
-          <span class="tag">FPV</span>
-          <span class="tag">Electronics</span>
-          <span class="tag">Guides</span>
-        </p>
+        <p><span class="tag">3D Printing</span> <span class="tag">FPV</span> <span class="tag">Electronics</span> <span class="tag">Guides</span></p>
       </div>
-      <div class="hero-art card"></div>
+      <div class="hero-art card" style="height:260px"></div>
     </section>
 
     <section id="about" class="grid cols-2">
       <div class="card pad">
         <h2>About</h2>
-        <p>I build and fix useful things. I prefer proven methods, then iterate. This site is a simple log of what works so others waste less time.</p>
+        <p>[EDIT START] I build and fix useful things. I prefer proven methods, then iterate. This site is a simple log of what projects i have worked on, thought up, or still plan on doing at some point in the future. [EDIT END]</p>
         <ul>
-          <li>Based in Orlando, FL</li>
+          <li>[EDIT START] Orlando, FL [EDIT END]</li>
           <li>Ender‑3 V3 SE and legacy Ender‑3</li>
           <li>Taranis X‑Lite, Tinyhawk</li>
         </ul>
@@ -87,9 +72,9 @@
         <h2>Services</h2>
         <p class="muted">Light, practical help.</p>
         <ul>
-          <li>Basic 3D design and printing</li>
-          <li>Small FPV repairs and setup</li>
-          <li>Simple websites and automation tips</li>
+          <li>[EDIT START] Basic 3D design and printing [EDIT END]</li>
+          <li>[EDIT START] PC/Phone Repair and Restoration [EDIT END]</li>
+          <li>[EDIT START] Simple blog where I share my thoughts [EDIT END]</li>
         </ul>
       </div>
     </section>
@@ -98,19 +83,19 @@
       <h2>Projects</h2>
       <div class="grid cols-3">
         <article class="card pad">
-          <h3>Grid organizer</h3>
-          <p class="muted">Custom wall‑mount organizer with labeled slots. Printable on an Ender‑3.</p>
-          <p><a href="#">Read more →</a></p>
+          <h3>[EDIT START] 3d Projects [EDIT END]</h3>
+          <p class="muted">[EDIT START] Custom wall‑mount organizer with labeled slots. Printable on an Ender‑3. [EDIT END]</p>
+          <p><a href="#">[EDIT START] Read more → [EDIT END]</a></p>
         </article>
         <article class="card pad">
-          <h3>Tinyhawk rehab</h3>
-          <p class="muted">Connector swaps, basic tune, and printable TPU guards.</p>
-          <p><a href="#">Build log →</a></p>
+          <h3>[EDIT START] FPV drone adventures [EDIT END]</h3>
+          <p class="muted">[EDIT START] Connector swaps, basic tune, and printable TPU guards. [EDIT END]</p>
+          <p><a href="#">[EDIT START] Build log → [EDIT END]</a></p>
         </article>
         <article class="card pad">
-          <h3>Watch face experiments</h3>
-          <p class="muted">Minimal complications, battery‑first. Design notes and assets.</p>
-          <p><a href="#">Notes →</a></p>
+          <h3>[EDIT START] Blog where I can share my thoughts [EDIT END]</h3>
+          <p class="muted">[EDIT START] What is on my mind this week/month? [EDIT END]</p>
+          <p><a href="#">[EDIT START] Notes → [EDIT END]</a></p>
         </article>
       </div>
     </section>
@@ -133,7 +118,7 @@
         <h2>Links</h2>
         <ul>
           <li><a href="mailto:contact@jaygrafwallner.com">contact@jaygrafwallner.com</a></li>
-          <li><a href="https://jaygrafwallner.com">jaygrafwallner.com</a></li>
+          <li><a href="https://www.jaygrafwallner.com">www.jaygrafwallner.com</a></li>
           <li><a href="#">YouTube</a></li>
           <li><a href="#">GitHub</a></li>
         </ul>
@@ -147,13 +132,6 @@
 
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
-    document.querySelectorAll('a[href^="#"]').forEach(a=>{
-      a.addEventListener('click', e=>{
-        const id = a.getAttribute('href').slice(1);
-        const el = document.getElementById(id);
-        if (el) { e.preventDefault(); el.scrollIntoView({behavior:'smooth'}); }
-      })
-    });
     function sendMailto(e){
       e.preventDefault();
       const name = document.getElementById('name').value.trim();
